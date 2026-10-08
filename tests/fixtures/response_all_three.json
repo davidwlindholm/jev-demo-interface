@@ -1,0 +1,44 @@
+{
+  "model": "typesafe/jev-1.13-20260917",
+  "answers": {
+    "ja_nej": {
+      "type": "noul",
+      "noul": 0.39
+    },
+    "valg": {
+      "type": "choice",
+      "choice": "Vejledende spørgsmål",
+      "probabilities": {
+        "Lyt videre": 0,
+        "Inviter den stille": 0.17,
+        "Vejledende spørgsmål": 0.51,
+        "Tilbage til opgaven": 0.32
+      },
+      "confidence": 0.34
+    },
+    "skala": {
+      "type": "score",
+      "score": 2.01,
+      "legend": {
+        "0": "Rolig og saglig",
+        "1": "Lidt anspændt",
+        "2": "Skarp, med afbrydelser",
+        "3": "Åben konflikt"
+      },
+      "probabilities": {
+        "0": 0,
+        "1": 0,
+        "2": 0.99,
+        "3": 0.01
+      },
+      "confidence": 0.99
+    }
+  },
+  "usage": {
+    "input_tokens": 612,
+    "output_tokens": 96,
+    "cost": 2.5704e-05
+  },
+  "id": "gen-dec-1790283878-Iu3ePKUnxYBmsNjTekE0",
+  "provider": "TypeSafe"
+}

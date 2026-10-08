@@ -1,0 +1,6 @@
+# Keep the demo tool on localhost only (plan section 4) and send no usage stats.
+[server]
+address = "localhost"
+
+[browser]
+gatherUsageStats = false

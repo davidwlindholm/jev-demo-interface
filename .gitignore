@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets: the API key belongs in the environment, never in the repo
+.env
+.env.*
+.streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
