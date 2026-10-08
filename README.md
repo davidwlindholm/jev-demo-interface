@@ -1,5 +1,7 @@
 # Jev demo
 
+This tool is developed with support from AI, but it has been evaluated by a human before upload.
+
 A small local Streamlit tool for demonstrating TypeSafe's Jev decision model, called through OpenRouter's Decisions API. You describe a situation, ask up to three questions about it, and see the answers with their probabilities. The interface and the built-in scenarios are in Danish.
 
 You need an [OpenRouter](https://openrouter.ai) API key with credit on the account.
